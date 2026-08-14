@@ -62,9 +62,14 @@ desde el código hasta producción.
 
 <br/>
 
-<sub>ACTIVIDAD</sub>
+<sub>CUÁNDO PROGRAMO</sub>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Alexisghub-Z&bg_color=00000000&color=8f92a8&line=6366a8&point=93c5fd&area=true&area_color=6366a8&hide_border=true&hide_title=true&radius=4" alt="Gráfica de actividad del último año" width="100%" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Alexisghub-Z/Alexisghub-Z/output/reloj-dark.svg" />
+  <img src="https://raw.githubusercontent.com/Alexisghub-Z/Alexisghub-Z/output/reloj.svg" alt="Reloj de actividad: distribución de mis commits por hora del día" width="520" />
+</picture>
+
+<sub>CONTRIBUCIONES</sub>
 
 <img src="https://raw.githubusercontent.com/Alexisghub-Z/Alexisghub-Z/output/github-snake-dark.svg" alt="Contribuciones" width="100%" />
 

@@ -1,4 +1,4 @@
-name: Generar snake de contribuciones
+name: Generar gráficos del perfil
 
 on:
   schedule:
@@ -15,14 +15,28 @@ jobs:
       contents: write
 
     steps:
+      - name: Clonar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
       - name: Generar SVG del snake
         uses: Platane/snk@v3
-        id: snake-gif
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-snake.svg?color_snake=#6366a8&color_dots=#f1f3f9,#dee2f2,#8688c0,#6366a8,#93c5fd
             dist/github-snake-dark.svg?color_snake=#93c5fd&color_dots=#14141c,#3a3d63,#6366a8,#8688c0,#93c5fd
+
+      - name: Generar reloj de actividad
+        run: node scripts/reloj.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
+          TZ_OFFSET: "-6"
 
       - name: Publicar en la rama output
         uses: crazy-max/ghaction-github-pages@v4
