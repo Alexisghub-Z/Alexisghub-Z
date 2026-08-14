@@ -88,12 +88,7 @@ También me muevo en **infraestructura y redes** (Cisco Packet Tracer, despliegu
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Alexisghub-Z&show_icons=true&hide_border=true&theme=tokyonight&icon_color=6c8eff&count_private=true" alt="Estadísticas de GitHub" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Alexisghub-Z&layout=compact&hide_border=true&theme=tokyonight&langs_count=8" alt="Lenguajes más usados" />
-
-<br/><br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=Alexisghub-Z&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8" alt="Trofeos" />
+<img src="https://streak-stats.demolab.com/?user=Alexisghub-Z&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D&locale=es" alt="Racha de contribuciones" width="70%" />
 
 <br/><br/>
 
