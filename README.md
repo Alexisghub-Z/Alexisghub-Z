@@ -12,32 +12,59 @@ diseñados para escalar sin fricciones técnicas.
 
 <br/>
 
-<sub>STACK</sub>
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<sub>PRODUCTO</sub><br/>
+Aplicaciones web y sistemas internos<br/>
+que ordenan la operación de un negocio.
+
+</td>
+<td width="50%" valign="top">
+
+<sub>INFRAESTRUCTURA</sub><br/>
+Bases de datos, despliegue y redes,<br/>
+desde el código hasta producción.
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<sub>FRONTEND</sub>
 
 <p>
-  <img src="https://img.shields.io/badge/Next.js-14141c?style=flat-square&logo=nextdotjs&logoColor=8688c0" alt="Next.js" />
-  <img src="https://img.shields.io/badge/TypeScript-14141c?style=flat-square&logo=typescript&logoColor=8f92a8" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/React-14141c?style=flat-square&logo=react&logoColor=8f92a8" alt="React" />
-  <img src="https://img.shields.io/badge/Tailwind-14141c?style=flat-square&logo=tailwindcss&logoColor=8f92a8" alt="Tailwind" />
+  <img src="https://img.shields.io/badge/Next.js-14141c?style=flat-square&logo=nextdotjs&logoColor=ffffff&labelColor=14141c" alt="Next.js" />
+  <img src="https://img.shields.io/badge/React-14141c?style=flat-square&logo=react&logoColor=61DAFB&labelColor=14141c" alt="React" />
+  <img src="https://img.shields.io/badge/TypeScript-14141c?style=flat-square&logo=typescript&logoColor=3178C6&labelColor=14141c" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Tailwind-14141c?style=flat-square&logo=tailwindcss&logoColor=38BDF8&labelColor=14141c" alt="Tailwind" />
 </p>
+
+<sub>BACKEND</sub>
+
 <p>
-  <img src="https://img.shields.io/badge/Node.js-14141c?style=flat-square&logo=nodedotjs&logoColor=8f92a8" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Python-14141c?style=flat-square&logo=python&logoColor=8f92a8" alt="Python" />
-  <img src="https://img.shields.io/badge/Django-14141c?style=flat-square&logo=django&logoColor=8f92a8" alt="Django" />
-  <img src="https://img.shields.io/badge/Java-14141c?style=flat-square&logo=openjdk&logoColor=8f92a8" alt="Java" />
+  <img src="https://img.shields.io/badge/Node.js-14141c?style=flat-square&logo=nodedotjs&logoColor=5CFFA1&labelColor=14141c" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Python-14141c?style=flat-square&logo=python&logoColor=FFD343&labelColor=14141c" alt="Python" />
+  <img src="https://img.shields.io/badge/Django-14141c?style=flat-square&logo=django&logoColor=44B78B&labelColor=14141c" alt="Django" />
+  <img src="https://img.shields.io/badge/Java-14141c?style=flat-square&logo=openjdk&logoColor=F89820&labelColor=14141c" alt="Java" />
 </p>
+
+<sub>DATOS E INFRAESTRUCTURA</sub>
+
 <p>
-  <img src="https://img.shields.io/badge/PostgreSQL-14141c?style=flat-square&logo=postgresql&logoColor=8f92a8" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/Prisma-14141c?style=flat-square&logo=prisma&logoColor=8f92a8" alt="Prisma" />
-  <img src="https://img.shields.io/badge/Docker-14141c?style=flat-square&logo=docker&logoColor=8f92a8" alt="Docker" />
-  <img src="https://img.shields.io/badge/Cisco-14141c?style=flat-square&logo=cisco&logoColor=8f92a8" alt="Cisco Packet Tracer" />
+  <img src="https://img.shields.io/badge/PostgreSQL-14141c?style=flat-square&logo=postgresql&logoColor=93C5FD&labelColor=14141c" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Prisma-14141c?style=flat-square&logo=prisma&logoColor=8688C0&labelColor=14141c" alt="Prisma" />
+  <img src="https://img.shields.io/badge/Docker-14141c?style=flat-square&logo=docker&logoColor=2496ED&labelColor=14141c" alt="Docker" />
+  <img src="https://img.shields.io/badge/Cisco-14141c?style=flat-square&logo=cisco&logoColor=1BA0D7&labelColor=14141c" alt="Cisco Packet Tracer" />
 </p>
 
 <br/>
 
 <sub>ACTIVIDAD</sub>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Alexisghub-Z&bg_color=00000000&color=8f92a8&line=6366a8&point=8688c0&area=true&area_color=6366a8&hide_border=true&hide_title=true&radius=4" alt="Gráfica de actividad del último año" width="100%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Alexisghub-Z&bg_color=00000000&color=8f92a8&line=6366a8&point=93c5fd&area=true&area_color=6366a8&hide_border=true&hide_title=true&radius=4" alt="Gráfica de actividad del último año" width="100%" />
 
 <img src="https://raw.githubusercontent.com/Alexisghub-Z/Alexisghub-Z/output/github-snake-dark.svg" alt="Contribuciones" width="100%" />
 
