@@ -77,9 +77,11 @@ function porHora(fechas) {
 
 function svg(horas, tema) {
   const t = TEMAS[tema];
-  const W = 520, H = 300;
-  const cx = 150, cy = H / 2;
-  const rInterno = 34, rMax = 104;
+  // Formato vertical: el reloj vive en media columna del README, así que las
+  // cifras van debajo del círculo en vez de a un costado.
+  const W = 400, H = 380;
+  const cx = W / 2, cy = 148;
+  const rInterno = 36, rMax = 112;
 
   const total = horas.reduce((a, b) => a + b, 0);
   const max = Math.max(...horas, 1);
@@ -130,15 +132,18 @@ function svg(horas, tema) {
     })
     .join("\n");
 
-  const filas = [
-    [`${total}`, "commits analizados"],
+  // Tres cifras en fila bajo el reloj.
+  const yBase = 320;
+  const cols = [
+    [`${total}`, "commits"],
     [`${String(pico).padStart(2, "0")}:00`, "hora pico"],
-    [`${pctNoche}%`, "entre 20:00 y 03:00"],
+    [`${pctNoche}%`, "nocturnos"],
   ]
-    .map(
-      ([valor, etiqueta], i) => `    <text x="310" y="${118 + i * 46}" fill="${t.texto}" font-size="25" font-weight="600" font-family="Inter,system-ui,sans-serif">${valor}</text>
-    <text x="310" y="${136 + i * 46}" fill="${t.tenue}" font-size="11.5" font-family="Inter,system-ui,sans-serif">${etiqueta}</text>`
-    )
+    .map(([valor, etiqueta], i) => {
+      const x = Math.round(W * (0.5 + i) / 3);
+      return `    <text x="${x}" y="${yBase}" fill="${t.texto}" font-size="23" font-weight="600" text-anchor="middle" font-family="Inter,system-ui,sans-serif">${valor}</text>
+    <text x="${x}" y="${yBase + 19}" fill="${t.tenue}" font-size="11" text-anchor="middle" font-family="Inter,system-ui,sans-serif">${etiqueta}</text>`;
+    })
     .join("\n");
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Reloj de actividad: ${total} commits, hora pico ${pico}:00, ${pctNoche}% entre las 20:00 y las 03:00">
@@ -148,9 +153,8 @@ function svg(horas, tema) {
     <circle cx="${cx}" cy="${cy}" r="${rInterno}" fill="none" stroke="${t.trazo}" stroke-width="1"/>
 ${sectores}
 ${marcas}
-    <text x="310" y="52" fill="${t.tenue}" font-size="10.5" font-weight="500" letter-spacing="1.6" font-family="Inter,system-ui,sans-serif">CUÁNDO PROGRAMO</text>
-    <line x1="310" y1="66" x2="496" y2="66" stroke="${t.trazo}" stroke-width="1"/>
-${filas}
+    <line x1="${Math.round(W * 0.12)}" y1="${yBase - 42}" x2="${Math.round(W * 0.88)}" y2="${yBase - 42}" stroke="${t.trazo}" stroke-width="1"/>
+${cols}
   </g>
 </svg>
 `;
