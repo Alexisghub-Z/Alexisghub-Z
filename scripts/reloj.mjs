@@ -160,8 +160,9 @@ const fechas = await traerCommits();
 if (fechas.length === 0) throw new Error("No se recibió ningún commit de la API");
 
 const horas = porHora(fechas);
-mkdirSync("dist", { recursive: true });
-writeFileSync("dist/reloj.svg", svg(horas, "claro"));
-writeFileSync("dist/reloj-dark.svg", svg(horas, "oscuro"));
+const salida = process.env.OUT_DIR ?? "dist";
+mkdirSync(salida, { recursive: true });
+writeFileSync(`${salida}/reloj.svg`, svg(horas, "claro"));
+writeFileSync(`${salida}/reloj-dark.svg`, svg(horas, "oscuro"));
 
 console.log(`${fechas.length} commits · pico ${horas.indexOf(Math.max(...horas))}:00`);

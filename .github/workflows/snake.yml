@@ -31,12 +31,17 @@ jobs:
             dist/github-snake.svg?color_snake=#6366a8&color_dots=#f1f3f9,#dee2f2,#8688c0,#6366a8,#93c5fd
             dist/github-snake-dark.svg?color_snake=#93c5fd&color_dots=#14141c,#3a3d63,#6366a8,#8688c0,#93c5fd
 
+      # snk corre en Docker como root y deja dist/ sin permiso de escritura para
+      # el usuario del runner, así que generamos aparte y copiamos con sudo.
       - name: Generar reloj de actividad
-        run: node scripts/reloj.mjs
+        run: |
+          node scripts/reloj.mjs
+          sudo cp reloj/*.svg dist/
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_USER: ${{ github.repository_owner }}
           TZ_OFFSET: "-6"
+          OUT_DIR: reloj
 
       - name: Publicar en la rama output
         uses: crazy-max/ghaction-github-pages@v4
