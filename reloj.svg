@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="380" viewBox="0 0 400 380" role="img" aria-label="Reloj de actividad: 290 commits, hora pico 22:00, 39% entre las 20:00 y las 03:00">
+  <g>
+    <circle cx="200" cy="148" r="116" fill="rgba(99,102,168,0.07)"/>
+    <circle cx="200" cy="148" r="116" fill="none" stroke="#dee2f2" stroke-width="1"/>
+    <circle cx="200" cy="148" r="36" fill="none" stroke="#dee2f2" stroke-width="1"/>
+    <path d="M200.0,112.0 L200.0,104.6 A43.4,43.4 0 0 1 210.1,105.8 L208.3,113.0 A36,36 0 0 0 200.0,112.0 Z" fill="#6366a8" opacity="0">
+      <animate attributeName="opacity" from="0" to="0.41" dur="0.5s" begin="0.00s" fill="freeze"/>
+    </path>
+    <path d="M209.3,113.2 L209.3,113.2 A36.0,36.0 0 0 1 217.1,116.3 L217.1,116.3 A36,36 0 0 0 209.3,113.2 Z" fill="#6366a8" opacity="0">
+      <animate attributeName="opacity" from="0" to="0.35" dur="0.5s" begin="0.04s" fill="freeze"/>
+    </path>
+    <path d="M218.0,116.8 L218.0,116.8 A36.0,36.0 0 0 1 224.7,121.8 L224.7,121.8 A36,36 0 0 0 218.0,116.8 Z" fill="#6366a8" opacity="0">
+      <animate attributeName="opacity" from="0" to="0.35" dur="0.5s" begin="0.09s" fill="freeze"/>
+    </path>
+    <path d="M225.5,122.5 L225.5,122.5 A36.0,36.0 0 0 1 230.7,129.1 L230.7,129.1 A36,36 0 0 0 225.5,122.5 Z" fill="#6366a8" opacity="0">
+      <animate attributeName="opacity" from="0" to="0.35" dur="0.5s" begin="0.14s" fill="freeze"/>
+    </path>
+    <path d="M231.2,130.0 L231.2,130.0 A36.0,36.0 0 0 1 234.5,137.7 L234.5,137.7 A36,36 0 0 0 231.2,130.0 Z" fill="#6366a8" opacity="0">
+      <animate attributeName="opacity" from="0" to="0.35" dur="0.5s" begin="0.18s" fill="freeze"/>
+    </path>
+    <path d="M234.8,138.7 L234.8,138.7 A36.0,36.0 0 0 1 236.0,147.0 L236.0,147.0 A36,36 0 0 0 234.8,138.7 Z" fill="#6366a8" opacity="0">
+      <animate attributeName="opacity" from="0" to="0.35" dur="0.5s" begin="0.22s" fill="freeze"/>
+    </path>
+    <path d="M236.0,148.0 L237.9,148.0 A37.9,37.9 0 0 1 236.8,156.8 L235.0,156.3 A36,36 0 0 0 236.0,148.0 Z" fill="#6366a8" opacity="0">
+      <animate attributeName="opacity" from="0" to="0.37" dur="0.5s" begin="0.27s" fill="freeze"/>
+    </path>
+    <path d="M234.8,157.3 L236.6,157.8 A37.9,37.9 0 0 1 233.3,166.0 L231.7,165.1 A36,36 0 0 0 234.8,157.3 Z" fill="#6366a8" opacity="0">
+      <animate attributeName="opacity" from="0" to="0.37" dur="0.5s" begin="0.32s" fill="freeze"/>
+    </path>
+    <path d="M231.2,166.0 L236.0,168.8 A41.6,41.6 0 0 1 230.2,176.6 L226.2,172.7 A36,36 0 0 0 231.2,166.0 Z" fill="#6366a8" opacity="0">
+      <animate attributeName="opacity" from="0" to="0.40" dur="0.5s" begin="0.36s" fill="freeze"/>
+    </path>
+    <path d="M225.5,173.5 L242.5,190.5 A60.1,60.1 0 0 1 231.5,199.2 L218.9,178.7 A36,36 0 0 0 225.5,173.5 Z" fill="#6366a8" opacity="0">
+      <animate attributeName="opacity" from="0" to="0.56" dur="0.5s" begin="0.40s" fill="freeze"/>
+    </path>
+    <path d="M218.0,179.2 L239.3,216.1 A78.6,78.6 0 0 1 222.5,223.4 L210.3,182.5 A36,36 0 0 0 218.0,179.2 Z" fill="#6366a8" opacity="0">
+      <animate attributeName="opacity" from="0" to="0.71" dur="0.5s" begin="0.45s" fill="freeze"/>
+    </path>
+    <path d="M209.3,182.8 L213.2,197.1 A50.8,50.8 0 0 1 201.4,198.8 L201.0,184.0 A36,36 0 0 0 209.3,182.8 Z" fill="#6366a8" opacity="0">
+      <animate attributeName="opacity" from="0" to="0.48" dur="0.5s" begin="0.49s" fill="freeze"/>
+    </path>
+    <path d="M200.0,184.0 L200.0,215.5 A67.5,67.5 0 0 1 184.4,213.7 L191.7,183.0 A36,36 0 0 0 200.0,184.0 Z" fill="#6366a8" opacity="0">
+      <animate attributeName="opacity" from="0" to="0.62" dur="0.5s" begin="0.54s" fill="freeze"/>
+    </path>
+    <path d="M190.7,182.8 L184.0,207.8 A62.0,62.0 0 0 1 170.5,202.5 L182.9,179.7 A36,36 0 0 0 190.7,182.8 Z" fill="#6366a8" opacity="0">
+      <animate attributeName="opacity" from="0" to="0.57" dur="0.5s" begin="0.58s" fill="freeze"/>
+    </path>
+    <path d="M182.0,179.2 L170.9,198.4 A58.2,58.2 0 0 1 160.0,190.3 L175.3,174.2 A36,36 0 0 0 182.0,179.2 Z" fill="#6366a8" opacity="0">
+      <animate attributeName="opacity" from="0" to="0.54" dur="0.5s" begin="0.63s" fill="freeze"/>
+    </path>
+    <path d="M174.5,173.5 L137.8,210.2 A87.9,87.9 0 0 1 125.1,194.1 L169.3,166.9 A36,36 0 0 0 174.5,173.5 Z" fill="#6366a8" opacity="0">
+      <animate attributeName="opacity" from="0" to="0.79" dur="0.5s" begin="0.67s" fill="freeze"/>
+    </path>
+    <path d="M168.8,166.0 L139.9,182.7 A69.4,69.4 0 0 1 133.5,167.8 L165.5,158.3 A36,36 0 0 0 168.8,166.0 Z" fill="#6366a8" opacity="0">
+      <animate attributeName="opacity" from="0" to="0.64" dur="0.5s" begin="0.72s" fill="freeze"/>
+    </path>
+    <path d="M165.2,157.3 L140.2,164.0 A62.0,62.0 0 0 1 138.1,149.7 L164.0,149.0 A36,36 0 0 0 165.2,157.3 Z" fill="#6366a8" opacity="0">
+      <animate attributeName="opacity" from="0" to="0.57" dur="0.5s" begin="0.77s" fill="freeze"/>
+    </path>
+    <path d="M164.0,148.0 L136.2,148.0 A63.8,63.8 0 0 1 137.9,133.2 L165.0,139.7 A36,36 0 0 0 164.0,148.0 Z" fill="#6366a8" opacity="0">
+      <animate attributeName="opacity" from="0" to="0.59" dur="0.5s" begin="0.81s" fill="freeze"/>
+    </path>
+    <path d="M165.2,138.7 L145.5,133.4 A56.4,56.4 0 0 1 150.4,121.2 L168.3,130.9 A36,36 0 0 0 165.2,138.7 Z" fill="#6366a8" opacity="0">
+      <animate attributeName="opacity" from="0" to="0.52" dur="0.5s" begin="0.85s" fill="freeze"/>
+    </path>
+    <path d="M168.8,130.0 L148.0,118.0 A60.1,60.1 0 0 1 156.3,106.7 L173.8,123.3 A36,36 0 0 0 168.8,130.0 Z" fill="#6366a8" opacity="0">
+      <animate attributeName="opacity" from="0" to="0.56" dur="0.5s" begin="0.90s" fill="freeze"/>
+    </path>
+    <path d="M174.5,122.5 L152.3,100.3 A67.5,67.5 0 0 1 164.6,90.5 L181.1,117.3 A36,36 0 0 0 174.5,122.5 Z" fill="#6366a8" opacity="0">
+      <animate attributeName="opacity" from="0" to="0.62" dur="0.5s" begin="0.94s" fill="freeze"/>
+    </path>
+    <path d="M182.0,116.8 L144.0,51.0 A112.0,112.0 0 0 1 168.0,40.7 L189.7,113.5 A36,36 0 0 0 182.0,116.8 Z" fill="#4a80c4" opacity="0">
+      <animate attributeName="opacity" from="0" to="1.00" dur="0.5s" begin="0.99s" fill="freeze"/>
+    </path>
+    <path d="M190.7,113.2 L172.9,47.0 A104.6,104.6 0 0 1 197.1,43.5 L199.0,112.0 A36,36 0 0 0 190.7,113.2 Z" fill="#6366a8" opacity="0">
+      <animate attributeName="opacity" from="0" to="0.94" dur="0.5s" begin="1.03s" fill="freeze"/>
+    </path>
+    <text x="216.7" y="25.1" fill="rgba(20,20,36,0.42)" font-size="11" font-family="Inter,system-ui,sans-serif" text-anchor="middle">00</text>
+    <text x="326.9" y="168.7" fill="rgba(20,20,36,0.42)" font-size="11" font-family="Inter,system-ui,sans-serif" text-anchor="middle">06</text>
+    <text x="183.3" y="278.9" fill="rgba(20,20,36,0.42)" font-size="11" font-family="Inter,system-ui,sans-serif" text-anchor="middle">12</text>
+    <text x="73.1" y="135.3" fill="rgba(20,20,36,0.42)" font-size="11" font-family="Inter,system-ui,sans-serif" text-anchor="middle">18</text>
+    <line x1="48" y1="278" x2="352" y2="278" stroke="#dee2f2" stroke-width="1"/>
+    <text x="67" y="320" fill="#14141c" font-size="23" font-weight="600" text-anchor="middle" font-family="Inter,system-ui,sans-serif">290</text>
+    <text x="67" y="339" fill="rgba(20,20,36,0.42)" font-size="11" text-anchor="middle" font-family="Inter,system-ui,sans-serif">commits</text>
+    <text x="200" y="320" fill="#14141c" font-size="23" font-weight="600" text-anchor="middle" font-family="Inter,system-ui,sans-serif">22:00</text>
+    <text x="200" y="339" fill="rgba(20,20,36,0.42)" font-size="11" text-anchor="middle" font-family="Inter,system-ui,sans-serif">hora pico</text>
+    <text x="333" y="320" fill="#14141c" font-size="23" font-weight="600" text-anchor="middle" font-family="Inter,system-ui,sans-serif">39%</text>
+    <text x="333" y="339" fill="rgba(20,20,36,0.42)" font-size="11" text-anchor="middle" font-family="Inter,system-ui,sans-serif">nocturnos</text>
+  </g>
+</svg>
